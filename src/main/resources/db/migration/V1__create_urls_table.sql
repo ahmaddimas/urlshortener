@@ -6,3 +6,4 @@ CREATE TABLE urls (
 );
 
 CREATE INDEX idx_urls_short_code ON urls(short_code);
+CREATE INDEX idx_urls_original_url ON urls(original_url);
